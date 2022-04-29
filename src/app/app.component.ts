@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'login-angular';
+
+  register = {
+    name: '',
+    email: '',
+    password: ''
+  }
+
+  onRegister() {
+    console.log(this.register);
+    this.register.name = '';
+    this.register.email = '';
+    this.register.password = '';
+  }
+
 }
