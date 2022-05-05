@@ -1,6 +1,4 @@
-.message-error {
-  font-size: x-small;
-  color: red;
+.text-danger {
   opacity: 0;
   transition: all linear .5s;
   &.invalid {
